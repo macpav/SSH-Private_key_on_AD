@@ -1,0 +1,11 @@
+##Ajouter à la fin fichier 
+########################################################################################
+########################################################################################
+AuthorizedKeysCommand /etc/ssh/script
+AuthorizedKeysCommandUser root
+AuthorizedKeysFile
+PermitRootLogin no
+PasswordAuthentication no
+UsePAM no
+########################################################################################
+##fin de l'ajout  
